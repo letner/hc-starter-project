@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6830181794606592453
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6830181794606592459}
+  - component: {fileID: 6830181794606592452}
+  m_Layer: 0
+  m_Name: Color Scheme Switcher
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6830181794606592459
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6830181794606592453}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6830181794606592452
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6830181794606592453}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0596943ba0014fc4a92237db4f716588, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  universalMaterial: {fileID: 2100000, guid: 8f409b253822b4b33a0bb4ffa42a38ba, type: 2}
+  effectMaterials:
+  - {fileID: 2100000, guid: b4872d0fa1ae8434f8cbe34e55689894, type: 2}
+  - {fileID: 2100000, guid: 674f889d29ebe466781e3a7dca2ab571, type: 2}
+  skybox: {fileID: 2100000, guid: 5a96dbb8cf97fa84bbbae9ebe8812fbe, type: 2}
+  foundationMaterial: {fileID: 2100000, guid: d6bcfbdda8f124e7fa902d9f7681ab41, type: 2}
+  colorSchemes:
+  - universalMaterialTexture: {fileID: 2800000, guid: f1020c66498294ceb9d400b3eedb9b29, type: 3}
+    effectMaterialColors:
+    - {r: 1, g: 1, b: 0, a: 0}
+    - {r: 0.58431375, g: 0.8000001, b: 0.7058824, a: 0}
+    skyboxBottom: {r: 0.20784315, g: 0.47450984, b: 0.7294118, a: 1}
+    skyboxTop: {r: 0.97647065, g: 0.654902, b: 0.07058824, a: 0}
+    foundationColor: {r: 0.74509805, g: 0.74509805, b: 0.74509805, a: 0}
+  - universalMaterialTexture: {fileID: 2800000, guid: 9e27c2ade51974e5096d33431f1778eb, type: 3}
+    effectMaterialColors:
+    - {r: 1, g: 1, b: 0, a: 0}
+    - {r: 0.58431375, g: 0.8000001, b: 0.7058824, a: 0}
+    skyboxBottom: {r: 0.97647065, g: 0.909804, b: 0.45882356, a: 1}
+    skyboxTop: {r: 0.92549026, g: 0.43921572, b: 0.5686275, a: 0}
+    foundationColor: {r: 0.74509805, g: 0.74509805, b: 0.74509805, a: 0}
+  - universalMaterialTexture: {fileID: 2800000, guid: 334dc92b3ce344a7a90a2d80170b8f53, type: 3}
+    effectMaterialColors:
+    - {r: 1, g: 1, b: 0, a: 0}
+    - {r: 0.58431375, g: 0.8000001, b: 0.7058824, a: 0}
+    skyboxBottom: {r: 0.9803922, g: 0.9450981, b: 0.81568635, a: 1}
+    skyboxTop: {r: 0.10196079, g: 0.23137257, b: 0.39607847, a: 0}
+    foundationColor: {r: 0.74509805, g: 0.74509805, b: 0.74509805, a: 0}
+  - universalMaterialTexture: {fileID: 2800000, guid: 22828b2e9229744d7987abbf738dde82, type: 3}
+    effectMaterialColors:
+    - {r: 1, g: 1, b: 0, a: 0}
+    - {r: 0.58431375, g: 0.8000001, b: 0.7058824, a: 0}
+    skyboxBottom: {r: 0.47058827, g: 0.82745105, b: 0.7607844, a: 1}
+    skyboxTop: {r: 0.91372555, g: 0.5882353, b: 0.61960787, a: 0}
+    foundationColor: {r: 0.74509805, g: 0.74509805, b: 0.74509805, a: 0}

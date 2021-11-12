@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Numbers
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 256
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: c6e20e30547284ee28c8052ba4c6cae3, type: 3}
+    - {fileID: 2800000, guid: f8182caa8f6404dca8d57683ee967d0f, type: 3}
+    - {fileID: 2800000, guid: c35f7ebfa60b24791b019236d48500c7, type: 3}
+    - {fileID: 2800000, guid: c32cd3c24b6e9489e9077e40328cd2a9, type: 3}
+    - {fileID: 2800000, guid: 3b5363b69bfb046598f8101a4bc8e970, type: 3}
+    - {fileID: 2800000, guid: 277b96ff3ff6e405bb07ab22cb03f0f9, type: 3}
+    - {fileID: 2800000, guid: 66f551f80ba75469895ec0e5f9f319f9, type: 3}
+    - {fileID: 2800000, guid: 3952a8e0fce094ab99d947322a45c05c, type: 3}
+    - {fileID: 2800000, guid: be9db254407fd405cbd18ff33385d76d, type: 3}
+    - {fileID: 2800000, guid: aab022e23ba5345f99183aba977d13c3, type: 3}
+    - {fileID: 2800000, guid: 772e785856cbf4f7f88cf06a72c58206, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites: []
+  m_PackedSpriteNamesToIndex: []
+  m_Tag: Numbers
+  m_IsVariant: 0

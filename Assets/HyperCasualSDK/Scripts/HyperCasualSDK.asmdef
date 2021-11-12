@@ -1,0 +1,19 @@
+{
+    "name": "HyperCasualSDK",
+    "references": [
+        "Vibrator",
+        "Cinemachine",
+        "com.unity.cinemachine.editor",
+        "Unity.TextMeshPro",
+        "Unity.TextMeshPro.Editor"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
